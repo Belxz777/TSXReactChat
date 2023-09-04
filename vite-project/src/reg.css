@@ -1,0 +1,77 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(49, 112, 227);
+  }
+
+
+  .maindiv{
+    height:100vh;
+    background:rgb(107, 133, 181);
+    display: flex;
+  }
+  .reg{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 330px;
+    margin-top: 10%;
+  }
+  .blackh{
+    color: rgb(49, 112, 227);
+
+  }
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subbtn{
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color:rgb(49, 112, 227);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  .checkreg{
+    text-decoration: none;
+    color:#202020;
+  }
+  .logo{
+    font-size: 45px;
+    margin-left: 5%;
+    color:rgb(49, 112, 227);
+    box-shadow: 0px 5px 10px 0px rgba(238, 225, 225, 0.5); 
+    border-radius: 5px;
+  }
+  header{
+ display: flex;
+ justify-content: space-between;
+  }
